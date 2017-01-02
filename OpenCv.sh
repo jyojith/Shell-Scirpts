@@ -1,3 +1,8 @@
+
+#!/bin/bash
+#Author Jyojith George Thaliath https://github.com/jyojith/
+# credits to https://github.com/milq/scripts-ubuntu-debian
+#please execute using command su -c (sh hw.sh) or run as Root
   apt-get -y update
   apt-get -y upgrade
   apt-get -y dist-upgrade

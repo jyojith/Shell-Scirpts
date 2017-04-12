@@ -2,6 +2,8 @@
 #author Jyojith George Thaliath
 #please execute using command su -c (sh hw.sh) or as Root
 
+rm /etc/apt/sources.list
+
 echo "deb http://httpredir.debian.org/debian/ jessie main contrib non-free" >> /etc/apt/sources.list
 
 apt-get -y install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
